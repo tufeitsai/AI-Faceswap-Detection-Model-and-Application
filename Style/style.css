@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa); /* Nice gradient background */
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Image Upload and Preview */
+#imageUpload {
+    margin-bottom: 20px;
+}
+
+#imagePreview {
+    display: block;
+    max-width: 40%;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Result Display */
+#result {
+    font-size: 1.4em;
+    color: #333;
+    text-align: center;
+    margin-top: 15px;
+    transition: opacity 0.5s ease;
+}
+
+/* Model Selection */
+#modelSelect {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Popup Message */
+.popup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.popup.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Button */
+#uploadButton {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#uploadButton:hover {
+    background-color: #0056b3;
+}
+
+/* Link to Source Code */
+.source-link-container {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.source-link {
+    color: #007bff;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+}
+
+.github-logo {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+/* Authors Section */
+.authors {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}

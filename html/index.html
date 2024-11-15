@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Face-Swap Detection</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Face-Swap Detection</h1>
+        <h2>USC CSCI 566 Final Project</h2>
+        
+        <!-- Authors Section -->
+        <div class="authors">
+            <p>Authors: Tufei Cai, Yihan Zhang, Qiaochu Zhang</p>
+        </div>
+    
+        <input type="file" id="imageUpload" onchange="previewImage(event)" />
+        <img id="imagePreview" class="hidden" alt="Image Preview" />
+        
+        <select id="modelSelect">
+            <option value="face_edge">Face Edge Enhanced Model</option>
+            <option value="noise">Noise-Based Model</option>
+            <option value="vit">Vision Transformer Model</option>
+        </select>
+        
+        <button id="uploadButton" onclick="uploadImage()">Detect</button>
+        <div id="result"></div>
+    </div>
+    
+    <!-- Popup Message -->
+    <div id="popup" class="popup"></div>
+    
+    <!-- Link to source code -->
+    <a href="https://github.com/tufeitsai/AI-Faceswap-Detection-Model-and-Application" class="source-link-container" target="_blank">
+        <img src="../website_images/github-mark.png" alt="GitHub Logo" class="github-logo" />
+        <span class="source-link">View Source Code on GitHub</span>
+    </a>
+    
+    
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
