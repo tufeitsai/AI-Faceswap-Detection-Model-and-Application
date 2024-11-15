@@ -1,0 +1,8 @@
+Flask==2.3.2
+Flask-Cors==3.0.10
+torch==2.0.1
+torchvision==0.15.2
+Pillow==10.0.0
+timm==0.9.5
+opencv-python==4.8.0.76
+transformers==4.34.0
