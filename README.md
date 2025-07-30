@@ -3,6 +3,8 @@ USC CSCI 566 Final Project
 
 This repository contains our project for detecting AI face-swap images using self-trained models and a simple web application. The goal is to identify whether an image is real or AI-generated, using a combination of self-collected datasets and cutting-edge deep learning techniques.
 
+Demo Video: https://youtu.be/5K0oJ6-KKbM
+
 ---
 
 ## **Dataset**
